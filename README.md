@@ -2,69 +2,41 @@
 
 
 
-
-
-
-
 **GitHub:** [kabzon93region](https://github.com/kabzon93region)
 
-**Deployment:** `(headless_client,headless_host)`  
+**Клиентский мод для SPT 4 + Fika.** Мост PocketRoulette между клиентом и headless-хостом. Обеспечивает корректную работу PocketRoulette в Fika headless-coop.
 
 
 
-**Version:** `1.0.1`  
+## Требования
 
 
 
-**Platform:** EFT 16.9 / SPT 4.0.13 / Fika 2.3.x
+- **PocketRoulette** — оригинальный мод (на обеих сторонах)
+
+- **Fika** headless-coop
+
+- **SPT**: 4.0.x
+
+- **BepInEx**: 5.4.x
 
 
 
+## Установка
 
 
 
+1. Скопировать `PocketRouletteFikaFix.dll` в `BepInEx/plugins/` на headless-хосте и клиенте
 
-Мост PocketRoulette между клиентом и headless-хостом.
-
-
-
+2. PocketRoulette должен быть установлен на обеих сторонах
 
 
 
-
-## Install
-
+## Совместимость
 
 
 
-
-
-
-1. Download release zip from GitHub Releases.
-
-
-
-2. Extract into Escape from Tarkov game root (`EscapeFromTarkov.exe`).
-
-
-
-3. See `INSTALL.md` in release folder (not inside zip).
-
-
-
-
-
-
-
-## Changelog
-
-
-
-
-
-
-
-See [CHANGELOG.md](CHANGELOG.md).
+- `headless_client,headless_host` — и на клиенте, и на хосте
 
 
 
