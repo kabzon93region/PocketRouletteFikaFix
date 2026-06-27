@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 
 
@@ -34,6 +34,7 @@
 
   <PropertyGroup>
 
+    <TarkovDir Condition="'$(TarkovDir)' == '' AND '$(EFT_GAME_ROOT)' != ''">$(EFT_GAME_ROOT)\</TarkovDir>
     <TarkovDir Condition="'$(TarkovDir)' == ''">U:\Games\EscapeFromTarkov4\</TarkovDir>
 
     <CursorModdingDir>$(TarkovDir)CURSORAIMODING\</CursorModdingDir>
